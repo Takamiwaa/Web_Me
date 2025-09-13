@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link href="./src/output.css" rel="stylesheet" />
+    <title>Portofoliöw</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header
+      class="fixed top-2 z-[9999] py-2 w-full mix-blend-difference transition-transform ease-linear duration-150"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      data-aos-delay="400"
+    >
+      <div class="container">
+        <div class="flex justify-between items-center w-full">
+          <div class="flex justify-center items-center">
+            <a href="">
+              <img src="public/assets/logo.png" alt="logo" class="w-20 h-20" />
+            </a>
+          </div>
+
+          <div class="flex gap-2">
+            <a
+              href="https://open.spotify.com/user/313nilcmenul6wwrpytg3ttwdjxu?si=M3Ds0-YYQ_6QmzdKKQ9ZJQ "
+              class="px-8 py-2 border border-white rounded-2xl font-semibold hover:bg-white hover:text-black transition ease-linear duration-100"
+              >Spotify</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <a href="#" class="to-top"><box-icon name='chevron-up'></box-icon></a>
+
+    <section
+      id="hero"
+      class="relative flex justify-center items-center min-h-screen backdrop-brightness-50 overflow-hidden"
+    >
+      <div
+        class="absolute inset-0 h-full w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:48px_48px]"
+      ></div>
+      <div class="container">
+        <div class="flex flex-col justify-center items-center h-screen">
+          <img
+            src="public/assets/ball.png"
+            alt="ball"
+            class="absolute top-[15%] left-[41%] w-[20%] z-10"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          />
+          <div class="flex items-center justify-between w-full">
+            <h1
+              class="text-[10rem] text-gray-300 font-bitter font-bold cursor-default"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              öwen
+            </h1>
+            <h1
+              class="text-[10rem] text-gray-300 font-bitter font-bold cursor-default"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              Takamiwa
+            </h1>
+          </div>
+          <div
+            class="z-50 absolute bottom-12 left-[49%] flex flex-col items-center justify-center"
+          >
+            <box-icon
+              name="mouse"
+              class="w-8 h-8 fill-white animate-bounce"
+            ></box-icon>
+            <p>Geser ke bawah</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16">
+      <div class="container">
+        <div class="flex flex-col justify-center items-center h-full gap-16">
+          <h6
+            class="w-[85%] text-4xl text-center text-gray-100"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+          <span class="text-white font-bold">Halo! Nama saya Takamiwa / Owwen</span>.<br />
+Lahir di <span class="text-white font-bold">Bandung</span> pada tanggal <span class="text-white font-bold">31 Juli</span>.<br />
+Saat ini saya menekuni <span class="text-white font-bold">gambar, desain, dan coding</span>, sambil terus mengembangkan diri.<br />
+Beberapa hal yang saya suka: <span class="text-white font-bold">calisthenics, badminton, membaca buku, nonton, serta kucing & anjing</span>.<br />
+Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nila, mie ayam, baso, udang asam manis, batagor, cuanki</span>.<br />
+<span class="text-white font-bold">dan semua ini masih belajar, belum expert banget hehe</span>
+</h6>
+
+ <!-- Stats -->
+          <div
+            class="flex items-center gap-8"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <div class="flex flex-col items-center gap-2">
+  <h1 class="font-bold text-4xl">100/100</h1>
+  <p class="text-gray-100 text-lg font-semibold">Kucing hilang = mood rusak</p>
+</div>
+
+<div class="flex flex-col items-center gap-2">
+  <h1 class="font-bold text-4xl">5/100</h1>
+  <p class="text-gray-100 text-lg font-semibold">Ngoding (kalau mood)</p>
+</div>
+
+<div class="flex flex-col items-center gap-2">
+  <h1 class="font-bold text-4xl">∞</h1>
+  <p class="text-gray-100 text-lg font-semibold">Kerjain selagi? Bisa</p>
+</div>
+          </div>
+
+          <!-- Action -->
+          <div
+            class="flex items-center gap-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            <a href="https://moewalls.com" target="_blank">
+  <button
+    class="py-2 px-6 border border-white rounded-2xl font-bold hover:bg-white hover:text-black transition ease-linear duration-100"
+  >
+    Moewalls
+  </button>
+</a>
+
+<a href="https://wallhaven.cc" target="_blank">
+  <button
+    class="py-2 px-6 border border-white rounded-2xl font-bold hover:bg-white hover:text-black transition ease-linear duration-100"
+  >
+    Wallhaven
+  </button>
+</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-16 pb-32 overflow-hidden">
+      <div class="container">
+        <div class="flex flex-col justify-center items-center gap-16">
+          <!-- Title -->
+          <div class="flex justify-between items-center w-full">
+            <h1
+              class="text-4xl font-bold font-bitter text-gray-100"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              I-inikan <span class="text-white">my...</span>
+            </h1>
+            <a
+              href="#"
+              class="text-lg hover:underline"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+              >Lihat semua</a
+            >
+          </div>
+
+<!-- Mentors -->
+<div class="grid grid-cols-4 gap-4">
+
+  <!-- Mentor Card 1 -->
+  <a href="https://www.pixiv.net/en/artworks/134586265" target="_blank" class="group">
+    <div class="flex flex-col gap-2 border border-gray-300 rounded-xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <div class="relative rounded-xl flex justify-center items-center">
+        <img src="public/assets/waguri.jpg" alt="mentor" class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100" />
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent from-70% to-black z-[50]"></div>
+        <box-icon type="solid" name="right-top-arrow-circle" class="cursor-pointer w-12 h-12 fill-white absolute scale-0 hover:fill-gray-100 group-hover:scale-100 transition ease-linear duration-100 z-50"></box-icon>
+      </div>
+      <div class="py-1.5 px-3 text-center">
+        <h1 class="text-2xl font-bold">Waguri Kaoruko</h1>
+        <p class="text-gray-100">Waifu Tersuci</p>
+      </div>
+    </div>
+  </a>
+
+  <!-- Mentor Card 2 -->
+  <a href="https://www.pixiv.net/en/artworks/134586265" target="_blank" class="group">
+    <div class="flex flex-col gap-2 border border-gray-300 rounded-xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+      <div class="relative rounded-xl flex justify-center items-center">
+        <img src="public/assets/waguri1.jpg" alt="mentor" class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100" />
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent from-70% to-black z-[50]"></div>
+        <box-icon type="solid" name="right-top-arrow-circle" class="cursor-pointer w-12 h-12 fill-white absolute scale-0 hover:fill-gray-100 group-hover:scale-100 transition ease-linear duration-100 z-50"></box-icon>
+      </div>
+      <div class="py-1.5 px-3 text-center">
+        <h1 class="text-2xl font-bold">Waguri Kaoruko</h1>
+        <p class="text-gray-100">Waifu Tersuci</p>
+      </div>
+    </div>
+  </a>
+
+  <!-- Mentor Card 3 -->
+  <a href="https://www.pixiv.net/en/artworks/134915686" target="_blank" class="group">
+    <div class="flex flex-col gap-2 border border-gray-300 rounded-xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+      <div class="relative rounded-xl flex justify-center items-center">
+        <img src="public/assets/waguri2.jpg" alt="mentor" class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100" />
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent from-70% to-black z-[50]"></div>
+        <box-icon type="solid" name="right-top-arrow-circle" class="cursor-pointer w-12 h-12 fill-white absolute scale-0 hover:fill-gray-100 group-hover:scale-100 transition ease-linear duration-100 z-50"></box-icon>
+      </div>
+      <div class="py-1.5 px-3 text-center">
+        <h1 class="text-2xl font-bold">Waguri Kaoruko</h1>
+        <p class="text-gray-100">Waifu Tersuci</p>
+      </div>
+    </div>
+  </a>
+
+  <!-- Mentor Card 4 -->
+  <a href="https://www.pixiv.net/en/artworks/134586265" target="_blank" class="group">
+    <div class="flex flex-col gap-2 border border-gray-300 rounded-xl" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+      <div class="relative rounded-xl flex justify-center items-center">
+        <img src="public/assets/waguri3.jpg" alt="mentor" class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100" />
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent from-70% to-black z-[50]"></div>
+        <box-icon type="solid" name="right-top-arrow-circle" class="cursor-pointer w-12 h-12 fill-white absolute scale-0 hover:fill-gray-100 group-hover:scale-100 transition ease-linear duration-100 z-50"></box-icon>
+      </div>
+      <div class="py-3 px-3 text-center">
+        <h1 class="text-2xl font-bold">Waguri Kaoruko</h1>
+        <p class="text-gray-100">Waifu Tersuci</p>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 relative" id="membership">
+      <div class="container">
+        <div class="flex item-center h-[50vh]">
+          <div class="flex flex-col justify-center gap-6 w-1/2 z-20">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <img
+                src="public/assets/quotation.png"
+                alt="quotation"
+                class="w-16 h-16"
+              />
+              <h1 class="text-3xl text-gray-100">
+    <span class="text-white font-bold">Albert Einstein</span> once said:
+    "<span class="text-white font-bold">Imagination is more important than knowledge</span>. 
+    For knowledge is limited, whereas imagination embraces the entire world."
+    <br />
+    <span class="text-gray-400">(Imajinasi lebih penting daripada pengetahuan. Karena pengetahuan terbatas, sedangkan imajinasi merangkul seluruh dunia.)</span>
+  </h1> </div></div>
+
+            <div
+              class="flex flex-col"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+            
+          </div>
+
+          <div class="flex w-1/2">
+            <img
+              src="public/assets/waguritransparant.png"
+              alt="membership"
+              class="w-[70%] absolute bottom-0 -right-[5%] z-20"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="py-32">
+  <div class="container">
+    <div class="flex flex-col items-center justify-center gap-6">
+      <h1
+        class="text-5xl font-bitter font-bold"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+      >
+        WIBUKU PLAN
+      </h1>
+
+      <div class="flex gap-4 w-full">
+        <!-- BASIC PLAN -->
+        <div
+          class="flex flex-col gap-2 w-1/2 border border-gray-100 rounded-xl p-8"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="flex justify-between items-center w-full">
+            <img src="public/assets/logo.png" alt="logo" class="w-20 h-20" />
+            <p class="text-white text-2xl">Gratis</p>
+          </div>
+
+          <div class="flex flex-col gap-1">
+            <h1 class="font-bold text-2xl">WIBUKU BASIC</h1>
+            <p class="text-gray-100">
+              Cocok buat lu yang pengen emosian, duit tipis, tapi tetap mau nonton anime.
+            </p>
+          </div>
+
+          <hr class="border-none w-full p-[1px] bg-gray-100 my-4" />
+
+          <div class="flex flex-col justify-between gap-10 h-full">
+            <div class="flex flex-col gap-6">
+              <h1 class="text-xl font-bold">FITUR:</h1>
+              <div class="grid grid-cols-2 gap-4">
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Nonton Beriklan</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Kunci Harian Terbatas</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Komentar 1x per video</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Bikin Emosi</p>
+                </div>
+              </div>
+            </div>
+
+            <button
+  onclick="window.open('https://play.google.com/store/apps/details?id=wibuku.app.wibuku', '_blank')"
+  class="w-full p-2 border border-white rounded-3xl font-bold hover:bg-white hover:text-black transition ease-linear duration-100"
+>
+  Download For Handphone
+</button>
+          </div>
+        </div>
+
+        <!-- PREMIUM PLAN -->
+        <div
+          class="flex flex-col gap-2 w-1/2 border border-gray-100 rounded-xl p-8"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="flex justify-between items-center w-full">
+            <img src="public/assets/logo.png" alt="logo" class="w-20 h-20" />
+            <p class="text-white text-2xl">Rp12.000/bulan</p>
+          </div>
+
+          <div class="flex flex-col gap-1">
+            <h1 class="font-bold text-2xl text-yellow-400">WIBUKU PREMIUM ✨</h1>
+            <p class="text-gray-100">
+              Langganan Wibuku Premium buat nikmati semua fiturnya!!, kalau ada duit banyak beli aja
+            </p>
+          </div>
+
+          <hr class="border-none w-full p-[1px] bg-gray-100 my-4" />
+
+          <div class="flex flex-col justify-between gap-10 h-full">
+            <div class="flex flex-col gap-6">
+              <h1 class="text-xl font-bold">FITUR PREMIUM:</h1>
+              <div class="grid grid-cols-2 gap-4">
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Bebas Iklan</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Foto Profil GIF</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Badge Premium Eksklusif</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Bonus EXP (+50%)</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Kunci Unlimited</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Resolusi MasyaAllah 🤯</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <box-icon name="check" class="fill-white w-7 h-7"></box-icon>
+                  <p class="text-md">Komentar Lebih dari 1x</p>
+                </div>
+              </div>
+            </div>
+
+            <button
+  onclick="window.open('https://miraclegaming.store/id/wibuku', '_blank')"
+  class="w-full p-2 border border-white rounded-3xl font-bold hover:bg-white hover:text-black transition ease-linear duration-100"
+>
+  Beli Premium 
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-16 overflow-hidden">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <div class="flex gap-8">
+            <div
+              class="flex items-center gap-2"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+               <!-- Address -->
+        <div
+          class="flex items-center gap-2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="p-2 border border-white rounded-[50%] flex justify-center items-center">
+            <box-icon name="home" class="w-8 h-8 fill-white"></box-icon>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-md font-bold">Alamat</p>
+            <a 
+              href="https://www.google.com/maps/search/?api=1&query=Jawa+Barat,+Bandung,+Indonesia" 
+              target="_blank" 
+              class="text-gray-100 text-sm hover:underline"
+            >
+              Jawa Barat, Bandung, Indonesia
+            </a>
+          </div>
+        </div>
+            <div
+          class="flex items-center gap-2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="p-2 border border-white rounded-[50%] flex justify-center items-center">
+            <box-icon name="phone" type="solid" class="w-8 h-8 fill-white"></box-icon>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-md font-bold">Nomor</p>
+            <a 
+              href="https://wa.me/6285603404603" 
+              target="_blank" 
+              class="text-gray-100 text-sm hover:underline"
+            >
+              +62 856 0304 04603
+            </a>
+          </div>
+        </div>
+            <div
+          class="flex items-center gap-2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+        >
+          <div class="p-2 border border-white rounded-[50%] flex justify-center items-center">
+            <box-icon name="envelope" type="solid" class="w-8 h-8 fill-white"></box-icon>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-md font-bold">Email</p>
+            <a 
+              href="mailto:galangowin30@gmail.com" 
+              class="text-gray-100 text-sm hover:underline"
+            >
+              galangowin30@gmail.com
+            </a>
+          </div>
+            </div>
+          </div>
+
+          <form
+  action="php/send.php"
+  method="POST"
+  class="flex justify-between bg-gray-300 py-2 px-4 w-[30%] rounded-[32px]"
+  data-aos="fade-up"
+  data-aos-duration="1000"
+  data-aos-delay="800"
+>
+  <input
+    type="email"
+    name="userEmail"
+    placeholder="Alamat Email"
+    class="bg-transparent focus:outline-none w-[70%]"
+    required
+  />
+  <button
+    type="submit"
+    class="w-full p-2 border border-white rounded-3xl font-bold hover:bg-white hover:text-black transition ease-linear duration-100"
+  >
+    Kirim
+  </button>
+</form>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="py-16 pb-4 bg-black" data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="400"
+    >
+      <div class="container">
+        <div class="flex flex-col gap-12">
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-[60px]">
+            <!-- Branding and Description -->
+            <div class="flex flex-col gap-7">
+              <!-- Logo -->
+              <div class="w-full flex items-center gap-1">
+                <img
+                  src="public/assets/logo.png"
+                  alt="logo"
+                  class="w-10 h-10 lg:w-8 lg:h-8"
+                />
+                <h1 class="font-bold text-[24px] lg:text-[22px] text-white">
+                  öwen
+                </h1>
+              </div>
+              <!-- Description -->
+              <p class="text-gray-100 font-medium leading-7 sm:w-1/2 lg:w-full">
+                Setiap orang sukses berawal dari nol, termasuk saya Amiin
+              </p>
+
+              <!-- Social Media & Contact -->
+              <div class="w-full flex gap-4">
+                <div class="p-2 rounded-[50%] bg-white flex justify-center items-center">
+                  <box-icon name='envelope' type='solid' class="w-8 h-8"></box-icon>
+                </div>
+                <div class="p-2 rounded-[50%] bg-white flex justify-center items-center">
+                  <box-icon name='globe' class="w-8 h-8"></box-icon>
+                </div>
+                <div class="p-2 rounded-[50%] bg-white flex justify-center items-center">
+                  <box-icon name='phone' type='solid' class="w-8 h-8"></box-icon>
+                </div>
+                <div class="p-2 rounded-[50%] bg-white flex justify-center items-center">
+                  <box-icon name='home' type='solid' class="w-8 h-8"></box-icon>
+                </div>
+                
+              </div>
+            </div>
+
+            <!-- Social Media Section -->
+<div class="flex flex-col gap-7">
+  <h3 class="text-white font-bold text-[18px]">Follow Me</h3>
+  <ul class="flex flex-col gap-4">
+    <li>
+      <a href="https://github.com/Takamiwaa" target="_blank" rel="noopener noreferrer"
+         class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150">
+         GitHub
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/owwen.zvs" target="_blank" rel="noopener noreferrer"
+         class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150">
+         Instagram
+      </a>
+    </li>
+    <li>
+      <a href="https://www.tiktok.com/@wowieckaaa" target="_blank" rel="noopener noreferrer"
+         class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150">
+         TikTok
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+            <!-- Anime Section -->
+<div class="flex flex-col gap-7">
+  <h3 class="text-white font-bold text-[18px]">Anime Streaming</h3>
+  <ul class="flex flex-col gap-4">
+    <li>
+      <a href="https://www.crunchyroll.com" target="_blank" rel="noopener noreferrer"
+         class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150">
+         Crunchyroll
+      </a>
+    </li>
+    <li>
+      <a href="https://www.funimation.com" target="_blank" rel="noopener noreferrer"
+         class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150">
+         Funimation
+      </a>
+    </li>
+    <li>
+      <a href="https://www.netflix.com/browse/genre/7424" target="_blank" rel="noopener noreferrer"
+         class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150">
+         Netflix Anime
+      </a>
+    </li>
+    <li>
+      <a href="https://www.anime-planet.com" target="_blank" rel="noopener noreferrer"
+         class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150">
+         Anime-Planet
+      </a>
+    </li>
+    <li>
+      <a href="https://www.hidive.com" target="_blank" rel="noopener noreferrer"
+         class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150">
+         HIDIVE
+      </a>
+    </li>
+  </ul>
+</div>
+
+            <!-- Company Section -->
+            <div class="flex flex-col gap-7">
+              <h3 class="text-white font-bold text-[18px]">Company</h3>
+              <ul class="flex flex-col gap-4">
+                <li>
+                  <a
+                    href="https://www.privacypolicies.com/live/your-custom-policy"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Privacy and Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.termsandconditionsgenerator.com/live/your-custom-terms"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Terms and Conditions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://chat.whatsapp.com/EApQZ65s9wF1UG5nD6Pinm"
+                    class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
+                    >Join Whatsapp</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Copyright -->
+          <div class="w-full">
+            <p class="font-medium text-gray-100 text-center">
+              Terus lah melangkah walupun sedikit hingga split ahahah - Takamiwaa 2025
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="public/js/script.js"></script>
+
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true
+      });
+    </script>
+  </body>
+</html>
