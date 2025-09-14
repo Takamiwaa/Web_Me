@@ -56,14 +56,14 @@
           <img
             src="public/assets/ball.png"
             alt="ball"
-            class="absolute top-[15%] left-[41%] w-[20%] z-10"
+            class="hidden sm:block absolute top-[8%] left-1/2 -translate-x-1/2 sm:left-[41%] w-20 sm:w-[20%] z-10"
             data-aos="fade-down"
             data-aos-duration="1000"
             data-aos-delay="400"
           />
-          <div class="flex items-center justify-between w-full">
+          <div class="flex items-center justify-between w-full flex-col sm:flex-row gap-4">
             <h1
-              class="text-[10rem] text-gray-300 font-bitter font-bold cursor-default"
+              class="text-5xl sm:text-[6rem] md:text-[8rem] lg:text-[10rem] text-gray-300 font-bitter font-bold cursor-default text-center sm:text-left"
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-delay="400"
@@ -71,7 +71,7 @@
               öwen
             </h1>
             <h1
-              class="text-[10rem] text-gray-300 font-bitter font-bold cursor-default"
+              class="text-5xl sm:text-[6rem] md:text-[8rem] lg:text-[10rem] text-gray-300 font-bitter font-bold cursor-default text-center sm:text-right"
               data-aos="fade-left"
               data-aos-duration="1000"
               data-aos-delay="400"
@@ -96,7 +96,7 @@
       <div class="container">
         <div class="flex flex-col justify-center items-center h-full gap-16">
           <h6
-            class="w-[85%] text-4xl text-center text-gray-100"
+            class="w-full max-w-4xl text-xl sm:text-2xl md:text-3xl text-center text-gray-100 px-4 sm:px-0"
             data-aos="fade-down"
             data-aos-duration="1000"
             data-aos-delay="400"
@@ -111,7 +111,7 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
 
  <!-- Stats -->
           <div
-            class="flex items-center gap-8"
+            class="flex flex-col sm:flex-row items-center gap-8"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="600"
@@ -134,7 +134,7 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
 
           <!-- Action -->
           <div
-            class="flex items-center gap-6"
+            class="flex flex-col sm:flex-row items-center gap-6"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="800"
@@ -183,7 +183,7 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
           </div>
 
 <!-- Mentors -->
-<div class="grid grid-cols-4 gap-4">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 
   <!-- Mentor Card 1 -->
   <a href="https://www.pixiv.net/en/artworks/134586265" target="_blank" class="group">
@@ -255,8 +255,8 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
 
     <section class="py-16 relative" id="membership">
       <div class="container">
-        <div class="flex item-center h-[50vh]">
-          <div class="flex flex-col justify-center gap-6 w-1/2 z-20">
+        <div class="flex flex-col sm:flex-row items-center h-auto sm:h-[50vh] gap-6">
+          <div class="flex flex-col justify-center gap-6 w-full sm:w-1/2 z-20 px-4 sm:px-0">
             <div
               data-aos="fade-right"
               data-aos-duration="1000"
@@ -284,11 +284,11 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
             
           </div>
 
-          <div class="flex w-1/2">
+          <div class="relative w-full sm:w-1/2 flex justify-end px-4 sm:px-0">
             <img
               src="public/assets/waguritransparant.png"
               alt="membership"
-              class="w-[70%] absolute bottom-0 -right-[5%] z-20"
+              class="w-3/4 sm:w-[70%] relative sm:absolute bottom-0 -right-4 z-20 mx-auto sm:mx-0"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="400"
@@ -309,10 +309,10 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
         WIBUKU PLAN
       </h1>
 
-      <div class="flex gap-4 w-full">
+  <div class="flex flex-col md:flex-row gap-4 w-full px-4 md:px-0">
         <!-- BASIC PLAN -->
         <div
-          class="flex flex-col gap-2 w-1/2 border border-gray-100 rounded-xl p-8"
+          class="flex flex-col gap-2 w-full md:w-1/2 border border-gray-100 rounded-xl p-6 md:p-8"
           data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-delay="400"
@@ -365,7 +365,7 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
 
         <!-- PREMIUM PLAN -->
         <div
-          class="flex flex-col gap-2 w-1/2 border border-gray-100 rounded-xl p-8"
+          class="flex flex-col gap-2 w-full md:w-1/2 border border-gray-100 rounded-xl p-6 md:p-8"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-delay="400"
@@ -505,9 +505,9 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
           </div>
 
           <form
-  action="php/send.php"
-  method="POST"
-  class="flex justify-between bg-gray-300 py-2 px-4 w-[30%] rounded-[32px]"
+          action="php/send.php"
+          method="POST"
+          class="flex items-center gap-2 bg-gray-300 py-2 px-4 w-full md:w-[30%] rounded-[32px]"
   data-aos="fade-up"
   data-aos-duration="1000"
   data-aos-delay="800"
@@ -516,7 +516,7 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
     type="email"
     name="userEmail"
     placeholder="Alamat Email"
-    class="bg-transparent focus:outline-none w-[70%]"
+            class="bg-transparent focus:outline-none flex-1 px-2"
     required
   />
   <button
@@ -550,12 +550,12 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
                   alt="logo"
                   class="w-10 h-10 lg:w-8 lg:h-8"
                 />
-                <h1 class="font-bold text-[24px] lg:text-[22px] text-white">
+                <h1 class="font-bold text-xl lg:text-[22px] text-white">
                   öwen
                 </h1>
               </div>
               <!-- Description -->
-              <p class="text-gray-100 font-medium leading-7 sm:w-1/2 lg:w-full">
+              <p class="text-gray-100 font-medium leading-7 w-full">
                 Setiap orang sukses berawal dari nol, termasuk saya Amiin
               </p>
 
@@ -579,7 +579,7 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
 
             <!-- Social Media Section -->
 <div class="flex flex-col gap-7">
-  <h3 class="text-white font-bold text-[18px]">Follow Me</h3>
+  <h3 class="text-white font-bold text-lg">Follow Me</h3>
   <ul class="flex flex-col gap-4">
     <li>
       <a href="https://github.com/Takamiwaa" target="_blank" rel="noopener noreferrer"
@@ -605,7 +605,7 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
 
             <!-- Anime Section -->
 <div class="flex flex-col gap-7">
-  <h3 class="text-white font-bold text-[18px]">Anime Streaming</h3>
+  <h3 class="text-white font-bold text-lg">Anime Streaming</h3>
   <ul class="flex flex-col gap-4">
     <li>
       <a href="https://www.crunchyroll.com" target="_blank" rel="noopener noreferrer"
@@ -642,18 +642,18 @@ Makanan favorit saya antara lain: <span class="text-white font-bold">gurame, nil
 
             <!-- Company Section -->
             <div class="flex flex-col gap-7">
-              <h3 class="text-white font-bold text-[18px]">Company</h3>
+              <h3 class="text-white font-bold text-lg">Company</h3>
               <ul class="flex flex-col gap-4">
                 <li>
                   <a
-                    href="https://www.privacypolicies.com/live/e26944d0-af81-45ae-a569-7470e34036a4"
+                    href="https://www.privacypolicies.com/live/your-custom-policy"
                     class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
                     >Privacy and Policy</a
                   >
                 </li>
                 <li>
                   <a
-                    href="https://www.termsfeed.com/live/4c9991e5-fe93-40ff-8ca0-b43f88a92026"
+                    href="https://www.termsandconditionsgenerator.com/live/your-custom-terms"
                     class="font-medium text-gray-100 hover:text-white transition ease-linear duration-150"
                     >Terms and Conditions</a
                   >
