@@ -1,0 +1,62 @@
+TAKAMIWAA LICENSE
+
+1. Overview
+
+The Takamiwaa License is designed to cover both the source code and content of this website, including HTML, CSS, JavaScript, and PHP files. 
+It allows free usage, modification, and distribution of the code while protecting the original creative content, including text, images, videos, and other media.
+
+This license is ideal for personal or open-source projects where the author wants to share code freely but retain control over creative content.
+
+2. For Code (HTML, CSS, JS, PHP)
+
+Copyright (c) 2025 Takamiwaa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this website’s source code (HTML, CSS, JavaScript, PHP), to deal in the Software without restriction, including without limitation the rights to:
+
+- Use the code for personal, educational, or commercial purposes
+- Copy, modify, merge, and adapt the code
+- Publish and distribute copies of the code
+- Sublicense or sell the code
+
+Conditions:
+
+- The above copyright notice and this permission notice must be included in all copies or substantial portions of the code.
+- The code is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement.
+- The author is not liable for any claims, damages, or other liabilities arising from the use of the code.
+
+3. For Content (Text, Images, Media)
+
+All text, images, videos, and other media included in this website are:
+
+- Created by the author
+- Used with permission from original creators
+- Public domain or under fair use
+
+Conditions:
+
+- Content may not be redistributed, sold, or used for commercial purposes without explicit permission from the author.
+- Attribution must be provided if the content is reused for educational or non-commercial purposes.
+- The author retains all rights to creative content; this license applies primarily to the code that powers the website.
+
+4. Purpose & Scope
+
+The Takamiwaa License ensures:
+
+- Freedom for Developers: Anyone can freely use, modify, and distribute the website’s code for personal projects, learning, or commercial applications.
+- Protection for Creative Work: Media, texts, and creative elements remain the intellectual property of the author and are not automatically open for commercial redistribution.
+- Transparency: Users understand what parts of the project are open-source (code) and what parts are protected (content).
+
+5. Disclaimer
+
+- The software and code are provided "as is" without warranty.
+- The author is not responsible for any misuse, errors, or damages resulting from the use of this website or its code.
+- Always check licensing of third-party media (images, videos, etc.) included in the project.
+
+6. Author & Contact
+
+Author: Takamiwaa
+GitHub: https://github.com/Takamiwaa
+Instagram: https://instagram.com/owwen.zvs
+TikTok: https://tiktok.com/@wowieckaaa
+
+"Keep it terminal — keep it tidy."
